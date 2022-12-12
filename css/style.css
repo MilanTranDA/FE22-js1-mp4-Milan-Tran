@@ -1,0 +1,585 @@
+* {
+    background-color: #0a192f;
+}
+
+/* Making 7 ''stars'' into a headshaped duck */
+#Head1 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    top: 10vh;
+    left: 30vw;
+    /* rotate: 45deg; */
+}
+
+#Head2 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    top: 8vh;
+    right: 10vw;
+    /* color: rgb(255, 255, 255); */
+}
+
+#Head3 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    bottom: 10vh;
+    left: 22vw;
+}
+
+#Head4 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    top: 35vh;
+    right: 17vw;
+}
+
+#Head5 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    top: 19vh;
+    left: 13vw;
+}
+
+#Head6 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    bottom: 10vh;
+    left: 7vw;
+}
+
+#Head7 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    top: 30vh;
+    right: 10vw;
+}
+
+#Head8 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: white ;
+    position: absolute;
+    top: 50vh;
+    right: 20vw;
+}
+
+/* Making eyes with 2 dots one will turn into black the other white */
+
+#Eyeblack {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 15vw;
+    height: 5vh;
+    background-color: silver;
+    border: 4px solid greenyellow;
+    position: absolute;
+    top: 50vh;
+    right: 32vw;
+    border-radius: 50%;
+    z-index: 1;
+    color: hsl(16, 100%, 50%);
+}
+
+#Eyepupil {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 6vw;
+    height: 8vh;
+    background-color: silver;
+    position: absolute;
+    top: 45vh;
+    right: 36.5vw;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: 4px solid greenyellow;
+    /* z-index: -1; */
+}
+
+/* Mouth/Peck moving start point */
+
+#Mouthpart1 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    top: 66vh;
+    right: 20vw;
+}
+
+/* Body in making */
+
+#MakingABody1 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 52.4vh;
+    right: 45vw;
+    border-radius: 50%;
+    z-index: 1;
+}
+#MakingABody2 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 52.4vh;
+    right: 43vw;
+    z-index: 1;
+    border-radius: 50%;
+}
+#MakingABody3 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 52.4vh;
+    right: 41vw;
+    z-index: 1;
+    border-radius: 50%;
+}
+#MakingABody4 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 52.4vh;
+    right: 39vw;
+    border-radius: 50%;
+    z-index: 1;
+}
+#MakingABody5 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 52.4vh;
+    right: 37vw;
+    z-index: 1;
+    border-radius: 50%;
+}
+#MakingABody6 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 52.4vh;
+    right: 35vw;
+    z-index: 1;
+    border-radius: 50%;
+
+}
+#MakingABody7 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 52.4vh;
+    right: 33vw;
+    z-index: 1;
+    border-radius: 50%;
+}
+#MakingABody8 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 60px;
+    height: 40px;
+    background-color: hsl(120, 73%, 75%);
+    position: absolute;
+    top: 46.3vh;
+    right: 37.65vw;
+    z-index: 1;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border: 1px solid black;
+
+}
+#MakingABody9 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 10px;
+    height: 20px;
+    background-color: hsl(0, 100%, 50%);
+    position: absolute;
+    top: 48vh;
+    right: 40vw;
+    z-index:2;
+    border-radius: 50%;
+    
+}
+
+/* Legs in making */
+
+#MakingALeg1 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    top: 80vh;
+    right: 54vw;
+
+}
+
+#MakingALeg2 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    top: 20vh;
+    right: 37vw;
+
+}
+
+#MakingALeg3 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    top: 70vh;
+    right: 4vw;
+
+}
+
+#MakingALeg4 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    top: 92vh;
+    right: 24vw;
+
+}
+
+
+/* Moon in making */
+#Moon {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 30vw;
+    height: 50vh;
+    background-color: white;
+    position: absolute;
+    top: 30vh;
+    left: 10vw;
+    border-radius: 50%;
+    border: 1.5px solid black;
+}
+
+
+
+#holedotsformoon1 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 7vw;
+    height: 7vh;
+    background-color: hsl(0, 0%, 50%);
+    position: absolute;
+    top: 35vh;
+    left: 15vw;
+    border-radius: 50%;
+    border: 1px solid black;
+    /* z-index: 1; */
+    
+}
+
+#holedotsformoon2 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 4vw;
+    height: 2vh;
+    background-color: hsl(0, 0%, 75%);
+    position: absolute;
+    top: 39.8vh;
+    left: 16.5vw;
+    border-radius: 50%;
+    /* z-index: 1; */
+    
+}
+
+#holedotsformoon3 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 4vw;
+    height: 3vh;
+    background-color: grey;
+    position: absolute;
+    top: 30vh;
+    left: 24vw;
+    border-radius: 50%;
+    border: 1px solid black;
+    /* z-index: 1; */
+    
+}
+
+#holedotsformoon4 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 2vw;
+    height: 1vh;
+    background-color: silver;
+    position: absolute;
+    top: 32vh;
+    left: 25vw;
+    border-radius: 50%;
+    /* z-index: 1; */
+    
+}
+
+#holedotsformoon5 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 8vw;
+    height: 4vh;
+    background-color: grey;
+    position: absolute;
+    top: 77vh;
+    left: 21vw;
+    border-radius: 50%;
+    border: 1px solid black;
+    /* z-index: 1; */
+    
+}
+
+#holedotsformoon6 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 6vw;
+    height: 2vh;
+    background-color: rgb(74, 74, 74);
+    position: absolute;
+    top: 77vh;
+    left: 22vw;
+    border-radius: 50%;
+    /* z-index: 1; */
+    
+}
+
+#holedotsformoon7 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 6vw;
+    height: 5vh;
+    background-color: grey;
+    position: absolute;
+    top: 55vh;
+    left: 15vw;
+    border-radius: 50%;
+    border: 1px solid black;
+    /* rotate: 30deg; */
+    /* z-index: 1; */
+    
+}
+
+#holedotsformoon8 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 4vw;
+    height: 2vh;
+    background-color: silver;
+    position: absolute;
+    top: 58vh;
+    left: 16vw;
+    border-radius: 50%;
+    /* z-index: 1; */
+    
+}
+
+#holedotsformoon9 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 7vw;
+    height: 5vh;
+    background-color: grey;
+    position: absolute;
+    top: 69vh;
+    left: 20vw;
+    border-radius: 50%;
+    border: 1px solid black;
+    /* z-index: 1; */
+    
+}
+
+#holedotsformoon10 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 5vw;
+    height: 3vh;
+    background-color:darkgray;
+    position: absolute;
+    top: 71vh;
+    left: 21.5vw;
+    border-radius: 50%;
+    /* z-index: 1; */
+    
+}
+#holedotsformoon11 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 5vw;
+    height: 3vh;
+    background-color:gray;
+    position: absolute;
+    top: 60vh;
+    left: 32vw;
+    border-radius: 50%;
+    border: 1px solid black;
+    /* z-index: 1; */
+    
+}
+#holedotsformoon12 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 3vw;
+    height: 2vh;
+    background-color:silver;
+    position: absolute;
+    top: 61vh;
+    left: 33.3vw;
+    border-radius: 50%;
+    /* z-index: 1; */
+    
+}
+#holedotsformoon13 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 10vw;
+    height: 8vh;
+    background-color:gray;
+    position: absolute;
+    top: 45vh;
+    left: 26vw;
+    border-radius: 50%;
+    border: 1px solid black;
+    /* z-index: 1; */
+    
+}
+#holedotsformoon14 {
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 6vw;
+    height: 2vh;
+    background-color:silver;
+    position: absolute;
+    top: 51vh;
+    left: 28vw;
+    border-radius: 50%;
+    /* z-index: 1; */
+    
+}
+
+
+/* Text as ''attacking the alienship */
+
+#SomeTextforAttack{
+    color: red;
+
+}
+
+#attack1{
+    position: absolute;
+    top: 34vh;
+    left: 48.5vw;
+}
+#attack2{
+    position: absolute;
+    top: 34vh;
+    left: 48.5vw;
+}
+#attack3{
+    position: absolute;
+    top: 34vh;
+    left: 48.5vw;
+}
+#attack4{
+    position: absolute;
+    top: 34vh;
+    left: 48.5vw;
+}
+#attack5{
+    position: absolute;
+    top: 34vh;
+    left: 48.5vw;
+}
+
+/* Hiding Text from showing before it's actually animation */
+#hidingText{
+    aspect-ratio: 1/1;
+    margin: 2px;
+    width: 2vw;
+    height: 1vh;
+    background-color:white;
+    position: absolute;
+    top: 36vh;
+    left: 48vw;
+    border-radius: 50%;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    border: 2px solid hsl(0, 0%, 100%);
+}
+
+#play,
+#pause,
+#stop {
+    color: bisque;
+    border: 2px solid bisque;
+    width: 10vw;
+    height: 5vh;
+
+}
